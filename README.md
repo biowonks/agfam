@@ -2,6 +2,10 @@
 
 The Agfam database is a focused collection of signal transduction-specific protein families, each of which is represented by hidden Markov models (HMMs). Although the primary focus of Agfam is Chemotaxis signal transduction, it is also useful for one and two-component signal transduction studies.
 
+## Usage
+
+These HMM models are intended for use with the HMMER3 package. To search for matches using HMMER3, first "hmmpress" agfam.hmm.
+
 ## Release 1.0
 
 * **4HB_MCP** The Methyl-accepting protein version of Four helix bundle
